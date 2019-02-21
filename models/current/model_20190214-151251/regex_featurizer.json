@@ -1,0 +1,14 @@
+[
+    {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+    },
+    {
+        "name": "currencies",
+        "pattern": "(?i)(\\bYen\\b|\\bUSD\\b|\\bEuro\\b)"
+    },
+    {
+        "name": "additional_currencies",
+        "pattern": "(?i)(\\bINR\\b|\\bUSD\\b|\\bEUR\\b)"
+    }
+]

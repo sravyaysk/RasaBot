@@ -1,0 +1,987 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Deductibles:",
+            "entity": "section_header"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "CAD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "10,000",
+            "entity": "amount"
+          },
+          {
+            "start": 24,
+            "end": 74,
+            "value": "each and every Property Damage/Bodily Injury claim",
+            "entity": "occurrence"
+          },
+          {
+            "start": 108,
+            "end": 111,
+            "value": "CAD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 112,
+            "end": 118,
+            "value": "20,000",
+            "entity": "amount"
+          },
+          {
+            "start": 119,
+            "end": 139,
+            "value": "each and every claim",
+            "entity": "occurrence"
+          }
+        ],
+        "text": "Deductibles: CAD 10,000 each and every Property Damage/Bodily Injury claim, inclusive of costs and expenses CAD 20,000 each and every claim in respect of Use of Heat / Water Damage NIL Medical Payments"
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "10,000",
+            "entity": "amount"
+          },
+          {
+            "start": 23,
+            "end": 64,
+            "value": "each and every loss, event, or Occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 807,
+            "end": 814,
+            "value": "tornado",
+            "entity": "perils"
+          },
+          {
+            "start": 816,
+            "end": 825,
+            "value": "windstorm",
+            "entity": "perils"
+          },
+          {
+            "start": 826,
+            "end": 833,
+            "value": "cyclone",
+            "entity": "perils"
+          },
+          {
+            "start": 835,
+            "end": 844,
+            "value": "hurricane",
+            "entity": "perils"
+          },
+          {
+            "start": 848,
+            "end": 852,
+            "value": "hail",
+            "entity": "perils"
+          },
+          {
+            "start": 1009,
+            "end": 1017,
+            "value": "72 hours",
+            "entity": "time_period"
+          },
+          {
+            "start": 1071,
+            "end": 1081,
+            "value": "earthquake",
+            "entity": "perils"
+          },
+          {
+            "start": 1111,
+            "end": 1128,
+            "value": "earth movement(s)",
+            "entity": "perils"
+          },
+          {
+            "start": 1009,
+            "end": 1017,
+            "value": "72 hours",
+            "entity": "time_period"
+          }
+        ],
+        "text": "Deductible: USD 10,000 each and every loss, event, or Occurrence Notwithstanding the foregoing deductibles, claims recoverable under InstituteCargo Clauses (C) Cl 384 1.1.09, Institute War Clauses Cl.385 1.1.09, Institute Strikes Clauses Cl 386 1.1.09, General Average, Removal of Debris Extension and claims for Salvage and Sue and Labour Charges shall be payable in full irrespective of percentage of valuation.The term \"\"Occurrence\"\" is defined as follows:1) Except as hereinafter defined, \"\"occurrence\"\" shall mean an accident or occurrence or series of accidents or occurrence arising out of one event. RKH Specialty http://spxb1/sites/global1/CargoSTP/LiveDocs/Policy/PlacingSlip/PC1808305 PlacingSlip_PC.Doc Page Policy No. B0180PC1808305 RKH 180 2) Each loss occurrence which involves the perils of tornado, windstorm,cyclone, hurricane or hail shall include all loss or damage wherever occurring occasioned by these perils which arise out of one atmospheric disturbance during a continuous period of 72 hours. 3) Each loss occurrence which involves the peril of earthquake, a series of earthquakes, or earth movement(s) shall include all losses or damage sustained during a continuous period of 72 hours 4) The Insured shall have the right to elect the moment from which the time periods referred to in 2) and 3) above shall be deemed to have commenced, however no elected period of time shall commence within any previous occurrence. Should the time period in 2) and 3) above extend beyond expiration or cancellation date of the Policy and commence prior to the expiration or cancellation date, the underwriter shall be liable as if such period fell entirely within the term of this Policy."
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "10,000",
+            "entity": "amount"
+          },
+          {
+            "start": 32,
+            "end": 73,
+            "value": "each and every loss, event, or Occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 79,
+            "end": 82,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 83,
+            "end": 89,
+            "value": "50,000",
+            "entity": "amount"
+          },
+          {
+            "start": 90,
+            "end": 130,
+            "value": "each and every loss, event or Occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 145,
+            "end": 155,
+            "value": "Earthquake",
+            "entity": "perils"
+          },
+          {
+            "start": 157,
+            "end": 172,
+            "value": "Named Windstorm",
+            "entity": "perils"
+          },
+          {
+            "start": 177,
+            "end": 182,
+            "value": "Flood",
+            "entity": "perils"
+          },
+          {
+            "start": 202,
+            "end": 205,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 206,
+            "end": 212,
+            "value": "10,000",
+            "entity": "amount"
+          },
+          {
+            "start": 213,
+            "end": 253,
+            "value": "each and every loss, event or Occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 850,
+            "end": 857,
+            "value": "tornado",
+            "entity": "perils"
+          },
+          {
+            "start": 859,
+            "end": 868,
+            "value": "windstorm",
+            "entity": "perils"
+          },
+          {
+            "start": 870,
+            "end": 877,
+            "value": "cyclone",
+            "entity": "perils"
+          },
+          {
+            "start": 879,
+            "end": 888,
+            "value": "hurricane",
+            "entity": "perils"
+          },
+          {
+            "start": 892,
+            "end": 896,
+            "value": "hail",
+            "entity": "perils"
+          },
+          {
+            "start": 1053,
+            "end": 1061,
+            "value": "72 hours",
+            "entity": "time_period"
+          },
+          {
+            "start": 1115,
+            "end": 1125,
+            "value": "earthquake",
+            "entity": "perils"
+          },
+          {
+            "start": 1155,
+            "end": 1172,
+            "value": "earth movement(s)",
+            "entity": "perils"
+          },
+          {
+            "start": 1053,
+            "end": 1061,
+            "value": "72 hours",
+            "entity": "time_period"
+          }
+        ],
+        "text": "Deductible: Storage: USD 10,000 each and every loss, event, or Occurrence but, USD 50,000 each and every loss, event or Occurrence in respect of Earthquake, Named Windstorm and Flood losses. Transits:USD 10,000 each and every loss, event or Occurrence Notwithstanding the foregoing deductibles, claims recoverable under Institute Cargo Clauses (C) Cl 384 1.1.09, Institute War Clauses Cl.385 1.1.09, InstituteStrikes Clauses Cl 386 1.1.09, General Average, Removal of Debris Extension and claims for Salvage and Sue and Labour Charges shall be payable in full irrespective of percentage of valuation. The term \"\"Occurrence\"\" is defined as follows: 1) Except as hereinafter defined, \"\"occurrence\"\" shall mean an accident or occurrence or series of accidents or occurrence arising out of one event. 2) Each loss occurrence which involves the perils of tornado, windstorm, cyclone, hurricane or hail shall include all loss or damage wherever occurring occasioned by these perils which arise out of one atmospheric disturbance during a continuous period of 72 hours. 3) Each loss occurrence which involves the peril of earthquake, a series of earthquakes, or earth movement(s) shall include all losses or damage sustained during a continuous period of 72 hours 4) The Insured shall have the right to elect the moment from which the time periods referred to in 2) and 3) above shall be deemed to have commenced, however no elected period of time shall commence withinany previous occurrence. Should the time period in 2) and 3) above extend beyond expiration or cancellation date of the Policy and commence prior to the expiration or cancellation date, the underwriter shall be liable as if such period fell entirely within the term of this Policy."
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 413,
+            "end": 416,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 417,
+            "end": 422,
+            "value": "5,000",
+            "entity": "amount"
+          },
+          {
+            "start": 437,
+            "end": 459,
+            "value": "all recoverable claims",
+            "entity": "occurrence"
+          },
+          {
+            "start": 552,
+            "end": 555,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 556,
+            "end": 561,
+            "value": "2,500",
+            "entity": "amount"
+          },
+          {
+            "start": 576,
+            "end": 598,
+            "value": "all recoverable claims",
+            "entity": "occurrence"
+          },
+          {
+            "start": 804,
+            "end": 807,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 808,
+            "end": 813,
+            "value": "2,500",
+            "entity": "amount"
+          },
+          {
+            "start": 828,
+            "end": 873,
+            "value": "all recoverable claims hereon, each container",
+            "entity": "occurrence"
+          },
+          {
+            "start": 943,
+            "end": 946,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 947,
+            "end": 952,
+            "value": "3,500",
+            "entity": "amount"
+          },
+          {
+            "start": 953,
+            "end": 981,
+            "value": "each and every claim/vehicle",
+            "entity": "occurrence"
+          }
+        ],
+        "text": "Deductible: Notwithstanding anything contained herein to the contrary the following DEDUCTIBLE CLAUSE/S shall be applicable hereon:- Break-Bulk Shipments only Shall be subject to a deductible excess of 0.10% of the full insured value of each whole ocean shipment (total insured value/s per ocean vessel) which in the case of shipments consisting of frozen goods shall be subject to a minimum deductible amount of USD 5,000 in respect of all recoverable claims hereon. All other subject matter insured shall be subject to a minimum deductible amount of USD 2,500 in respect of all recoverable claims hereon. Containerised Shipments Shall be subject to a deductible excess of 0.50% of the full insured value of the subject matter insured each whole container load subject to a minimum deductible amount of USD 2,500 in respect of all recoverable claims hereon, each container. Vehicles whilst under own Power Shall be subject to a deductible of USD 3,500 each and every claim/vehicle Above deductible not to apply to vehicles whilst being driven to or from ships side within Dock areas. RKH Specialty httD://sDxb1/sites/alobal1/CaraoSTR/UveDocs/Policv/PlacinaSliD/PC1720632 PlacinaSlio PC.Doc Paae 2 of 27 Policy No. B0180PC1720632 RKH 180 Notwithstanding the foregoing, claims recoverable under the Institute CargoClauses (c) Cl.384(1.1.09), Institute War Clauses (Cargo) Cl.385 (1.1.09) andInstitute Strikes Clauses (Cargo) Cl.386(1.1.09), or Survey Fees, GeneralAverage, Salvage, Sue And Labour Charges shall be payable in full."
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Original Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 38,
+            "end": 57,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 82,
+            "end": 85,
+            "value": "ARS",
+            "entity": "currency_code"
+          },
+          {
+            "start": 86,
+            "end": 92,
+            "value": "40,300",
+            "entity": "amount"
+          },
+          {
+            "start": 105,
+            "end": 108,
+            "value": "ARS",
+            "entity": "currency_code"
+          },
+          {
+            "start": 109,
+            "end": 116,
+            "value": "821,000",
+            "entity": "amount"
+          },
+          {
+            "start": 139,
+            "end": 158,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 183,
+            "end": 186,
+            "value": "ARS",
+            "entity": "currency_code"
+          },
+          {
+            "start": 187,
+            "end": 193,
+            "value": "40,300",
+            "entity": "amount"
+          },
+          {
+            "start": 265,
+            "end": 273,
+            "value": "Santa Fe",
+            "entity": "risk_location"
+          },
+          {
+            "start": 345,
+            "end": 357,
+            "value": "Buenos Aires",
+            "entity": "risk_location"
+          }
+        ],
+        "text": "Original Deductible: 10% of the loss, each and every loss subject to a minimum of ARS 40,300 and maximum ARS 821,000 but; 20% of the loss, each and every loss subject to a minimum of ARS 40,300 in respect of the following locations: 1) Ruta 19 Km. 127 - Frontera - Santa Fe (Mill and storage of yerba mate) 3) Venezuela 969 - Talar de Pacheco - Buenos Aires"
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Attachment points/Deductibles:",
+            "entity": "section_header"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 65,
+            "end": 70,
+            "value": "1,000",
+            "entity": "amount"
+          },
+          {
+            "start": 71,
+            "end": 91,
+            "value": "each and every claim",
+            "entity": "occurrence"
+          }
+        ],
+        "text": "Attachment points/Deductibles:(Including Costs and Expenses) USD 1,000 each and every claim including costs and expenses"
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "ORIGINAL DEDUCTIBLE:",
+            "entity": "section_header"
+          },
+          {
+            "start": 204,
+            "end": 207,
+            "value": "KRW",
+            "entity": "currency_code"
+          },
+          {
+            "start": 208,
+            "end": 217,
+            "value": "1,000,000",
+            "entity": "amount"
+          },
+          {
+            "start": 218,
+            "end": 234,
+            "value": "any one accident",
+            "entity": "occurrence"
+          },
+          {
+            "start": 257,
+            "end": 260,
+            "value": "KRW",
+            "entity": "currency_code"
+          },
+          {
+            "start": 261,
+            "end": 271,
+            "value": "10,000,000",
+            "entity": "amount"
+          },
+          {
+            "start": 272,
+            "end": 289,
+            "value": "any one accident",
+            "entity": "occurrence"
+          },
+          {
+            "start": 293,
+            "end": 296,
+            "value": "KRW",
+            "entity": "currency_code"
+          },
+          {
+            "start": 297,
+            "end": 307,
+            "value": "1,000,000",
+            "entity": "amount"
+          },
+          {
+            "start": 307,
+            "end": 324,
+            "value": "any one accident",
+            "entity": "occurrence"
+          }
+        ],
+        "text": "ORIGINAL DEDUCTIBLE: As per ' Package Insurance Policy - Operative Clause, General Exclusion, General Condition, and Special Extensions and Provisions Applicable to Section1 - Property All Risks - MEMO 5 KRW 1,000,000 any one accident (Distribution Center: KRW 10,000,000 any one accident but KRW 1,000,000 any one accident for Bonded Goods in the Distribution Center)"
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "value": "1",
+            "entity": "amount"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "2,000",
+            "entity": "amount"
+          },
+          {
+            "start": 57,
+            "end": 60,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "value": "125",
+            "entity": "amount"
+          },
+          {
+            "start": 65,
+            "end": 84,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 98,
+            "end": 101,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 102,
+            "end": 107,
+            "value": "2,001",
+            "entity": "amount"
+          },
+          {
+            "start": 114,
+            "end": 117,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 118,
+            "end": 123,
+            "value": "5,000",
+            "entity": "amount"
+          },
+          {
+            "start": 135,
+            "end": 138,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 139,
+            "end": 142,
+            "value": "250",
+            "entity": "amount"
+          },
+          {
+            "start": 143,
+            "end": 162,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 176,
+            "end": 179,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 180,
+            "end": 186,
+            "value": "5,001",
+            "entity": "amount"
+          },
+          {
+            "start": 192,
+            "end": 195,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 196,
+            "end": 202,
+            "value": "20,000",
+            "entity": "amount"
+          },
+          {
+            "start": 214,
+            "end": 217,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 218,
+            "end": 221,
+            "value": "500",
+            "entity": "amount"
+          },
+          {
+            "start": 255,
+            "end": 258,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 259,
+            "end": 265,
+            "value": "20,001",
+            "entity": "amount"
+          },
+          {
+            "start": 272,
+            "end": 275,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 276,
+            "end": 283,
+            "value": "200,000",
+            "entity": "amount"
+          },
+          {
+            "start": 295,
+            "end": 298,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 299,
+            "end": 304,
+            "value": "1,000",
+            "entity": "amount"
+          },
+          {
+            "start": 305,
+            "end": 324,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 338,
+            "end": 341,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 342,
+            "end": 349,
+            "value": "200,001",
+            "entity": "amount"
+          },
+          {
+            "start": 356,
+            "end": 359,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 360,
+            "end": 367,
+            "value": "500,000",
+            "entity": "amount"
+          },
+          {
+            "start": 379,
+            "end": 382,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 383,
+            "end": 388,
+            "value": "2,500",
+            "entity": "amount"
+          },
+          {
+            "start": 389,
+            "end": 408,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 427,
+            "end": 430,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 431,
+            "end": 438,
+            "value": "500,001",
+            "entity": "amount"
+          },
+          {
+            "start": 450,
+            "end": 453,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 454,
+            "end": 459,
+            "value": "5,000",
+            "entity": "amount"
+          },
+          {
+            "start": 460,
+            "end": 479,
+            "value": "each and every loss",
+            "entity": "occurrence"
+          },
+          {
+            "start": 1053,
+            "end": 1060,
+            "value": "tornado",
+            "entity": "perils"
+          },
+          {
+            "start": 1062,
+            "end": 1071,
+            "value": "windstorm",
+            "entity": "perils"
+          },
+          {
+            "start": 1072,
+            "end": 1079,
+            "value": "cyclone",
+            "entity": "perils"
+          },
+          {
+            "start": 1081,
+            "end": 1090,
+            "value": "hurricane",
+            "entity": "perils"
+          },
+          {
+            "start": 1094,
+            "end": 1098,
+            "value": "hail",
+            "entity": "perils"
+          },
+          {
+            "start": 1255,
+            "end": 1263,
+            "value": "72 hours",
+            "entity": "time_period"
+          },
+          {
+            "start": 1317,
+            "end": 1327,
+            "value": "earthquake",
+            "entity": "perils"
+          },
+          {
+            "start": 1357,
+            "end": 1374,
+            "value": "earth movement(s)",
+            "entity": "perils"
+          },
+          {
+            "start": 1450,
+            "end": 1458,
+            "value": "72 hours",
+            "entity": "time_period"
+          }
+        ],
+        "text": "Deductible: Sum Insured USD 1 up to USD 2,000 deductible USD 125 each and every loss. Sum Insured USD 2,001 up to USD 5,000 deductible USD 250 each and every loss. Sum Insured USD 5,001 up to USD 20,000 deductible USD 500 each and every loss. Sum Insured USD 20,001 up to USD 200,000 deductible USD 1,000 each and every loss. Sum Insured USD 200,001 up to USD 500,000 deductible USD 2,500 each and every loss. Sum Insured over USD 500,001 deductible USD 5,000 each and every loss. Notwithstanding the foregoing, claims recoverable under Institute Cargo Clauses(C) Cl 384 1.1.09, Institute War Clauses Cl.385 1.1.09, Institute Strikes ClausesCl 386 1.1.09, General Average, Removal of Debris Extension and claims for Salvage and Sue and Labour Charges shall be payable in full irrespective of percentage of valuation.The term \"\"loss\"\" is defined as follows: 1) Except as hereinafter defined, \"\"loss\"\" shall mean an accident or occurrence or series of accidents or occurrence arising out of one event. 2) Each loss occurrence which involves the perils of tornado, windstorm,cyclone, hurricane or hail shall include all loss or damage wherever occurring occasioned by these perils which arise out of one atmospheric disturbance during a continuous period of 72 hours. 3) Each loss occurrence which involves the peril of earthquake, a series of earthquakes, or earth movement(s) shall include all losses or damage sustained during a continuous period of 72 hours 4) The Insured shall have the right to elect the moment from which the timeperiods referred to in 2) and 3) above shall be deemed to have commenced, however no elected period of time shall commence within any previous occurrence. Should the time period in 2) and 3) above extend beyond expiration or cancellation date of the Policy and commence prior to the expiration or cancellation date, the underwriter shall be liable as if such period fell entirely within the term of this Policy."
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 66,
+            "end": 84,
+            "value": "any one occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 247,
+            "end": 250,
+            "value": "GBP",
+            "entity": "currency_code"
+          },
+          {
+            "start": 251,
+            "end": 256,
+            "value": "2,500",
+            "entity": "amount"
+          }
+        ],
+        "text": "Deductible: All claims for loss, damage or expense resulting from any one occurrence or series of occurrences arising out of one event, shall be adjusted as one claim, and from the amount of such adjusted claim there shall be deducted the sum of: GBP 2,500 Notwithstanding the foregoing, claims recoverable under the Institute Cargo Clauses (C) Cl 384 (1.1.09), Institute War Clauses (Cargo) Cl 385 (1.1.09) and Institute Strikes Clauses (Cargo) Cl 386 (1.1.09), or Survey Fees, General Average, Salvage, Sue and Labour Charges shall be payable in full."
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deductible:",
+            "entity": "section_header"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "AUD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "2,500",
+            "entity": "amount"
+          },
+          {
+            "start": 22,
+            "end": 42,
+            "value": "each and every Claim",
+            "entity": "occurrence"
+          },
+          {
+            "start": 48,
+            "end": 51,
+            "value": "AUD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 52,
+            "end": 58,
+            "value": "25,000",
+            "entity": "amount"
+          },
+          {
+            "start": 59,
+            "end": 79,
+            "value": "each and every Claim",
+            "entity": "occurrence"
+          }
+        ],
+        "text": "Deductible: AUD 2,500 each and every Claim but, AUD 25,000 each and every Claim in respect of claims arising from injury to contractors, sub contractors and/or Labour hire personnel"
+      },
+      {
+        "intent": "deductible_text",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "DEDUCTIBLE:",
+            "entity": "section_header"
+          },
+          {
+            "start": 38,
+            "end": 54,
+            "value": "Public Liability",
+            "entity": "liability"
+          },
+          {
+            "start": 56,
+            "end": 59,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 60,
+            "end": 65,
+            "value": "5,000",
+            "entity": "amount"
+          },
+          {
+            "start": 66,
+            "end": 91,
+            "value": "Each and Every Occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 97,
+            "end": 100,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 101,
+            "end": 107,
+            "value": "10,000",
+            "entity": "amount"
+          },
+          {
+            "start": 108,
+            "end": 133,
+            "value": "Each and Every Occurrence",
+            "entity": "occurrence"
+          },
+          {
+            "start": 177,
+            "end": 194,
+            "value": "Product Liability",
+            "entity": "liability"
+          },
+          {
+            "start": 196,
+            "end": 199,
+            "value": "USD",
+            "entity": "currency_code"
+          },
+          {
+            "start": 200,
+            "end": 206,
+            "value": "50,000",
+            "entity": "amount"
+          },
+          {
+            "start": 207,
+            "end": 232,
+            "value": "Each and Every Occurrence",
+            "entity": "occurrence"
+          }
+        ],
+        "text": "DEDUCTIBLE: SECTION 1 - In respect of Public Liability: USD 5,000 Each and Every Occurrence, but USD 10,000 Each and Every Occurrence in North America SECTION 2 - In respect of Product Liability: USD 50,000 Each and Every Occurrence"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -82,3 +82,15 @@
 - how much do I have on my [savings](source_account) <!-- entity "source_account" has value "savings" -->
 - how much do I have on my [savings account](source_account:savings) <!-- synonyms, method 1-->
 - Could I pay in [yen](currency)?  <!-- entity matched by lookup table -->
+
+## synonym:savings   <!-- synonyms, method 2 -->
+- pink pig
+
+## regex:zipcode
+- [0-9]{5}
+
+## lookup:currencies   <!-- lookup table list -->
+- Yen
+- USD
+- Euro
+- INR

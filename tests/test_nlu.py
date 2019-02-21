@@ -1,14 +1,17 @@
 from rasa_nlu.training_data import load_data
 from rasa_nlu.model import Trainer
 from rasa_nlu import config
+from rasa_nlu.model import Interpreter
 
 
-def test_train_and_persist():
-    training_data = load_data("data/nlu_data.md")
-    trainer = Trainer(config.load("nlu_config.yml"))
-    interpreter = trainer.train(training_data)
-    test_interpreter_dir = trainer.persist("./tests/models", project_name="nlu")
-    parsing = interpreter.parse('hello')
-
-    assert parsing['intent']['name'] == 'greet'
-    assert test_interpreter_dir
+training_data = load_data("E:/work/ML/SampleRASA/starter-pack-rasa-nlu/data/trainingdata.json")
+trainer = Trainer(config.load("E:/work/ML/SampleRASA/starter-pack-rasa-nlu/nlu_config.yml"))
+#interpreter = trainer.train(training_data)
+trainer.train(training_data)
+model_directory = trainer.persist("E:/work/ML/SampleRASA/starter-pack-rasa-nlu/models/", project_name="nlu")
+interpreter = Interpreter.load(model_directory)
+output = interpreter.parse(u"Deductible:USD 10,000 each and every Claim. Including costs and Expenses Deductible:")
+#parsing = interpreter.parse('hello')
+print(output)
+# assert parsing['intent']['name'] == 'greet'
+# assert model_directory
